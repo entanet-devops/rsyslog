@@ -1,0 +1,6 @@
+---
+# tasks file for rsyslog
+- name: Copy rsyslog template.
+  copy:
+    src: 1-template.conf
+    dest: /etc/rsyslog.d/1-template.conf
